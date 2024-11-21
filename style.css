@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan:wght@100..900&display=swap");
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	font-family: "Big Shoulders Display", sans-serif;
+	align-items: center;
+	flex-direction: column;
+	color: white;
+	height: 150vh;
+}
+
+.jaune {
+	display: flex;
+	padding: 4rem;
+	flex-direction: column;
+	height: 80vh;
+	background-color: #e28625;
+	gap: 50px;
+}
+.jaune img {
+	width: 40%;
+}
+
+.jaune h2 {
+	font-size: 50px;
+}
+
+.jaune p {
+	font-size: 25px;
+	font-weight: 400;
+}
+
+.jaune button {
+	width: 105%;
+	color: #e28625;
+	font-size: 25px;
+	border: none;
+	border-radius: 50px;
+	padding: 15px;
+}
+
+.jaune button:hover {
+	background-color: #e28625;
+	border: 2px solid white;
+	color: white;
+}
+
+.bleu {
+	display: flex;
+	padding: 4rem;
+	flex-direction: column;
+	height: 80vh;
+	background-color: #006971;
+	gap: 50px;
+}
+.bleu img {
+	width: 40%;
+}
+
+.bleu h2 {
+	font-size: 50px;
+}
+
+.bleu p {
+	font-size: 25px;
+	font-weight: 400;
+}
+
+.bleu button {
+	width: 105%;
+	color: #006971;
+	font-size: 25px;
+	border: none;
+	border-radius: 50px;
+	padding: 15px;
+}
+
+.bleu button:hover {
+	background-color: #006971;
+	border: 2px solid white;
+	color: white;
+}
+
+.bleu-fonce {
+	display: flex;
+	padding: 4rem;
+	flex-direction: column;
+	height: 80vh;
+	background-color: #004140;
+	gap: 50px;
+}
+.bleu-fonce img {
+	width: 40%;
+}
+
+.bleu-fonce h2 {
+	font-size: 50px;
+}
+
+.bleu-fonce p {
+	font-size: 25px;
+	font-weight: 400;
+}
+
+.bleu-fonce button {
+	width: 105%;
+	color: #004140;
+	font-size: 25px;
+	border: none;
+	border-radius: 50px;
+	padding: 15px;
+}
+
+.bleu-fonce button:hover {
+	background-color: #004140;
+	border: 2px solid white;
+	color: white;
+}
+
+@media screen and (min-width: 320px) {
+	body {
+		height: 100vh;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	main {
+		display: flex;
+		flex-direction: row;
+		height: 90vh;
+		width: 80%;
+	}
+
+	.jaune {
+		display: flex;
+		height: 100%;
+		gap: 80px;
+		border-radius: 20px 0 0 20px;
+	}
+
+	.jaune p {
+		font-size: 28px;
+
+		line-height: 40px;
+	}
+
+	.jaune img {
+		width: 35%;
+	}
+
+	.jaune button:hover {
+		background-color: #e28625;
+		border: 2px solid white;
+		color: white;
+	}
+
+	.jaune p,
+	button {
+		margin: 10px;
+	}
+
+	.bleu {
+		display: flex;
+		gap: 80px;
+		height: 100%;
+	}
+
+	.bleu p {
+		font-size: 28px;
+
+		line-height: 40px;
+	}
+
+	.bleu img {
+		width: 35%;
+	}
+
+	.bleu p,
+	button {
+		margin: 10px;
+	}
+
+	.bleu-fonce {
+		display: flex;
+		height: 100%;
+		gap: 80 px;
+		border-radius: 0 20px 20px 0;
+	}
+
+	.bleu-fonce p {
+		font-size: 28px;
+
+		line-height: 40px;
+	}
+
+	.bleu-fonce img {
+		width: 35%;
+	}
+
+	.bleu-fonce p,
+	button {
+		margin: 10px;
+	}
+}
